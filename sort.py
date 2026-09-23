@@ -1,0 +1,7 @@
+l=[]
+n=int(input("enter the no of elements:"))
+for i in range(n):
+  l.append(int(input("enter the elements:")))
+print(l)
+l.sort()
+print("sorted array:",l)
