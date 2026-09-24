@@ -1,0 +1,10 @@
+s=input("enter the string :")
+v=0
+c=0
+for i in s:
+ if(i in "aeiouAEIOU"):
+   v+=1
+ else:
+   c+=1
+print("no. of vowels =",v)
+print("no. of consnant =",c)
